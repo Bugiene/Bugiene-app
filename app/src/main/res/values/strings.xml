@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Bugiene</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="data_tittle">
+        <item>Exploring the Sweet Spot: How to Identify Ripe and Fresh Fruits with the Fruit Freshness Detector App</item>
+        <item>Optimizing Fruit Freshness: Expert Tips on Proper Fruit Care and Handling</item>
+        <item>Fruit Care for Optimal Health: Unlocking the Secrets to Preserving Nutritional Value and Freshness</item>
+        <item>The Fruit Whisperer Guide: Expert Advice on Caring for and Selecting the Freshest Fruits</item>
+        <item>The Remarkable Benefits of Fresh Fruits: Nourishing Your Health for a Vibrant Life</item>
+    </string-array>
+
+    <string-array name="data_field">
+        <item>@string/article_one</item>
+        <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
+        <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
+        <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
+        <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/pic_one</item>
+        <item>@drawable/pic_three</item>
+        <item>@drawable/pic_two</item>
+        <item>@drawable/pic_two</item>
+        <item>@drawable/pic_two</item>
+    </integer-array>
+    <string name="title_activity_detail_article">DetailArticleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="article_one">In the quest for the perfect fruit, freshness and ripeness are key factors that determine the ultimate eating experience. We all want to sink our teeth into a juicy, flavorful fruit at the peak of its ripeness. Thankfully, modern technology has come to the rescue with the Fruit Freshness Detector App, a revolutionary tool that helps us identify ripe and fresh fruits with ease. \n\n
+        Gone are the days of guessing or relying solely on visual cues to determine a fruit readiness. The Fruit Freshness Detector App takes advantage of advanced algorithms and sensors to analyze various factors that indicate the freshness and ripeness of a fruit. By simply scanning the fruit using the app, users can obtain valuable information that assists them in selecting the perfect fruit. \n\n
+        One of the primary indicators of fruit ripeness is its color. The app utilizes its built-in color recognition system to assess the hue and intensity of the fruit\'s skin. It compares these characteristics with a database of known color profiles for each fruit variety, allowing it to determine whether the fruit is ripe or still in the early stages of ripening. This feature is particularly useful for fruits like bananas, where the transition from green to yellow is a clear indication of ripeness.\n\n
+        Texture is another crucial aspect of fruit ripeness, and the Fruit Freshness Detector App excels in this area as well. By analyzing the fruits surface using its touch-sensitive technology, the app can detect changes in texture that occur as a fruit ripens. For example, a perfectly ripe peach will have a slightly soft and velvety texture, indicating that it is ready to be enjoyed. With the apps guidance, users can avoid the disappointment of biting into an unripe or overripe fruit.\n\n
+        In addition to color and texture, the app also considers the aroma emitted by the fruit. It leverages its scent recognition capabilities to analyze the volatile compounds released by the fruit, which are indicative of its ripeness. A ripe mango, for instance, will emit a sweet and fragrant aroma, while an unripe one may lack the distinct smell. By incorporating scent analysis, the Fruit Freshness Detector App provides users with a comprehensive assessment of a fruit\'s freshness.\n\n
+        The Fruit Freshness Detector App is not only a valuable tool for individual consumers but also for farmers, grocery stores, and fruit vendors. It enables them to accurately assess the ripeness of fruits before selling or distributing them, reducing waste and ensuring customer satisfaction. Additionally, the app can educate consumers about the ideal ripeness stages for different fruits, empowering them to make informed choices and fully enjoy their fruit-buying experience.\n\n
+        In conclusion, the Fruit Freshness Detector App is a game-changer in the world of fruit selection. By harnessing the power of advanced technology, this innovative app enables users to identify ripe and fresh fruits with ease. With its ability to analyze color, texture, and aroma, the app provides a comprehensive assessment that ensures you find the perfect fruit every time. So, embark on a journey to the sweet spot of fruit ripeness with the Fruit Freshness Detector App and savor the delight of biting into nature\'s finest offerings.\n\n
+    </string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+</resources>

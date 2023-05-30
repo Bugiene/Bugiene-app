@@ -1,0 +1,54 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        app:layout_anchorGravity="top"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="0dp"
+        app:layout_anchorGravity="bottom" >
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:itemHorizontalTranslationEnabled="false"
+            app:itemIconTint="@color/custom_botnav"
+            app:itemTextColor="@color/custom_botnav"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/bottom_nav_menu" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/PrimeOrange"
+        android:contentDescription="tomboladd"
+        android:scaleType="center"
+        android:src="@drawable/ic_camera"
+        app:fabCustomSize="73dp"
+        app:layout_anchor="@id/bottomAppBar"
+        app:layout_anchorGravity="top|end"
+        app:maxImageSize="45dp"
+        app:tint="@color/PrimeGreen" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
