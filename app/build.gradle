@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.bugiene"
-        minSdk 25
+        minSdk 28
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -68,5 +68,11 @@ dependencies {
     //circle indicator
     implementation 'me.relex:circleindicator:2.1.6'
 
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    //slideshow
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.2'
 
 }

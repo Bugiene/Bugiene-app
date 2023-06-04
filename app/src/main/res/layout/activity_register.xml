@@ -14,7 +14,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/dmsans_bold"
         android:gravity="center"
-        android:text="Register"
+        android:text="@string/register"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
         android:fontFamily="@font/dmsans_bold"
         android:labelFor="@id/ed_regis_username"
         android:paddingBottom="5dp"
-        android:text="Username"
+        android:text="@string/username"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
         android:fontFamily="@font/dmsans_bold"
         android:labelFor="@id/ed_regis_email"
         android:paddingBottom="5dp"
-        android:text="Email"
+        android:text="@string/email"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +93,7 @@
         android:fontFamily="@font/dmsans_bold"
         android:labelFor="@id/ed_regis_pass"
         android:paddingBottom="5dp"
-        android:text="Password"
+        android:text="@string/password"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -121,7 +121,7 @@
         android:fontFamily="@font/dmsans_bold"
         android:labelFor="@id/ed_regis_confpass"
         android:paddingBottom="5dp"
-        android:text="Confirm Password"
+        android:text="@string/confirm_password"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -149,7 +149,8 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/custom_bt"
         android:fontFamily="@font/dmsans_bold"
-        android:text="Submit"
+        android:textAllCaps="false"
+        android:text="@string/submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ed_regis_confpass" />
@@ -166,7 +167,7 @@
         android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/bt_regis"
         app:layout_constraintTop_toBottomOf="@id/bt_regis" />
 
     <TextView
@@ -180,7 +181,8 @@
         android:text="Login"
         android:textColor="@color/PrimeGreen"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="3dp"
+        app:layout_constraintEnd_toEndOf="@id/bt_regis"
         app:layout_constraintStart_toEndOf="@id/text1"
         app:layout_constraintTop_toBottomOf="@id/bt_regis" />
 

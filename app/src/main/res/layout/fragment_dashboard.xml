@@ -4,19 +4,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="655dp">
+    android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/view_pager"
-            android:layout_width="match_parent"
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
             android:layout_height="184dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:iss_auto_cycle="true"
+            app:iss_period="1500"
+            app:iss_delay="1500"
+            app:iss_text_align="CENTER"
+            app:iss_placeholder="@color/black"
+            app:iss_corner_radius="5"
+            app:iss_selected_dot="@drawable/default_selected_dot"
+            app:iss_unselected_dot="@drawable/default_unselected_dot"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+<!--        <androidx.viewpager2.widget.ViewPager2-->
+<!--            android:id="@+id/view_pager"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="184dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
         <TextView
             android:id="@+id/teks1"
@@ -24,21 +42,21 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/dmsans_bold"
             android:padding="16dp"
-            android:text="Confuse How to Use App?"
+            android:text="@string/confuse_how_to_use_app"
             android:textColor="@color/black"
             android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@id/cv_info_app"
+            app:layout_constraintBottom_toTopOf="@id/item_info_app"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/view_pager" />
+            app:layout_constraintTop_toBottomOf="@id/image_slider" />
 
         <include
-            android:id="@+id/cv_info_app"
+            android:id="@+id/item_info_app"
             layout="@layout/item_faq"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_width="match_parent"
-            android:layout_height="105dp"
+            android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/teks1" />
 
         <TextView
@@ -48,12 +66,12 @@
             android:fontFamily="@font/dmsans_bold"
             android:padding="16dp"
             android:layout_marginTop="3dp"
-            android:text="News Today"
+            android:text="@string/news_today"
             android:textColor="@color/black"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cv_info_app" />
+            app:layout_constraintTop_toBottomOf="@id/item_info_app" />
 
 
         <androidx.recyclerview.widget.RecyclerView
@@ -61,11 +79,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/teks2"
-            app:layout_constraintBottom_toBottomOf="parent"
-            tools:listitem="@layout/item_article"
-            tools:itemCount="5"/>
+            app:layout_constraintVertical_bias="0.0"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_article" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

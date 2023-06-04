@@ -1,5 +1,6 @@
 package com.example.bugiene.network
 
+import com.example.bugiene.model.HistoryResponse
 import com.example.bugiene.model.LoginResponse
 import com.example.bugiene.model.RegisterResponse
 import com.example.bugiene.model.UserResponse
@@ -33,5 +34,12 @@ interface ApiService {
     @GET("getUser")
     fun getUser(
         @Header("Authorization") authorization: String,
-    ) : Call<UserResponse>
+    ): Call<UserResponse>
+
+
+    @FormUrlEncoded
+    @GET("getHistory")
+    fun getHistory(
+        @Header("Authorization") authorization: String,
+    ): Call<HistoryResponse>
 }
