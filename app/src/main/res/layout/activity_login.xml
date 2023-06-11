@@ -91,6 +91,7 @@
         android:background="@drawable/custom_bt"
         android:fontFamily="@font/dmsans_bold"
         android:text="Submit"
+        android:textAllCaps="false"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,25 +105,26 @@
         android:layout_marginRight="70dp"
         android:fontFamily="@font/dmsans_regular"
         android:gravity="center"
-        android:text="Don't have an account? "
+        android:text="@string/don_t_have_an_account"
         android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/bt_login"
         app:layout_constraintTop_toBottomOf="@id/bt_login" />
 
     <TextView
         android:id="@+id/tv_to_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="115dp"
         android:fontFamily="@font/dmsans_regular"
         android:gravity="center"
-        android:text="Register"
+        android:text="@string/register"
         android:textColor="@color/PrimeGreen"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/bt_login"
         app:layout_constraintStart_toEndOf="@id/text1"
         app:layout_constraintTop_toBottomOf="@id/bt_login" />
 
@@ -135,5 +137,12 @@
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

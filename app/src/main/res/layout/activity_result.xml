@@ -8,7 +8,7 @@
 
     <include
         android:id="@+id/custom_toolbar"
-        layout="@layout/result_toolbar"
+        layout="@layout/custom_toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/dmsans_bold"
-                android:text="Result :"
+                android:text="@string/result"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -68,11 +68,11 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="97dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/dmsans_bold"
-                android:text="Akurasi :"
+                android:text="@string/accuracy"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -86,8 +86,5 @@
                 android:textSize="20sp"
                 tools:text="90 %" />
         </LinearLayout>
-
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

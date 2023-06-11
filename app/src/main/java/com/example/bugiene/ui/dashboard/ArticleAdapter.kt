@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.bugiene.R
 import com.example.bugiene.model.Article
 
@@ -28,7 +29,9 @@ class ArticleAdapter(private val ListArticle: ArrayList<Article>) : RecyclerView
         val (title, field, photo) = ListArticle[position]
         holder.tittle.text = title
         holder.field.text = field
-        holder.photo.setImageResource(photo)
+        Glide.with(holder.itemView)
+            .load(photo)
+            .into(holder.photo)
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(ListArticle[holder.adapterPosition])
         }

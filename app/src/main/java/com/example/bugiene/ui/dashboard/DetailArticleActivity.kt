@@ -23,6 +23,8 @@ class DetailArticleActivity : AppCompatActivity() {
             finish()
         }
 
+        binding.customToolbar.teks.text = "Article"
+
         val article = intent.getParcelableExtra<Article>(DashboardFragment.DATA)
         val tittle = binding.tvTittle
         val image = binding.ivImage

@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment
 import com.example.bugiene.databinding.ActivityMainBinding
 import com.example.bugiene.ui.dashboard.DashboardFragment
 import com.example.bugiene.ui.identify.IdentifyActivity
-import com.example.bugiene.ui.profile.LogoutDialogFragment
 import com.example.bugiene.ui.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {

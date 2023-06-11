@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.dashboard.DetailArticleActivity"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".ui.dashboard.DetailArticleActivity"
+xmlns:android="http://schemas.android.com/apk/res/android">
 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-
-            <include
-                android:id="@+id/custom_toolbar"
-                layout="@layout/detail_news_toolbar"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_toolbar">
 
             <LinearLayout
                 android:id="@+id/news_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="8dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/custom_toolbar">
+                android:padding="8dp">
 
                 <TextView
                     android:id="@+id/tv_tittle"
@@ -37,7 +36,7 @@
                     android:padding="16dp"
                     android:textColor="@android:color/black"
                     android:textSize="24sp"
-                    tools:text="Mengkonsumsi Buah Setiap Hari Dapat mencegah Kanker Paru." />
+                    tools:text="@string/tittle_contoh" />
 
                 <ImageView
                     android:id="@+id/iv_image"
@@ -56,7 +55,7 @@
                     android:padding="16dp"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris at lobortis sapien. Sed nec est non augue commodo mollis. Sed bibendum justo" />
+                    tools:text="@string/article_five" />
             </LinearLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

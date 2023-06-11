@@ -1,5 +1,6 @@
 package com.example.bugiene.ui.dashboard
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,6 +9,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
+import com.denzcoskun.imageslider.constants.ScaleTypes
+import com.denzcoskun.imageslider.models.SlideModel
 import com.example.bugiene.R
 import com.example.bugiene.databinding.FragmentDashboardBinding
 import com.example.bugiene.model.Article
@@ -37,16 +40,23 @@ class DashboardFragment : Fragment() {
         return binding.root
 
 
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initViewPager()
+//        initViewPager()
+        setupImageSlider()
         setupRecyclerView()
 
         if (savedInstanceState != null) {
             scrollPosition = savedInstanceState.getInt("scrollPosition", 0)
             recyclerView.post { recyclerView.scrollToPosition(scrollPosition) }
+        }
+
+        val includedView = binding.itemInfoApp.root
+        includedView.setOnClickListener {
+            startActivity(Intent(requireActivity(),TutorialActivity::class.java))
         }
     }
 
@@ -60,10 +70,21 @@ class DashboardFragment : Fragment() {
         _binding = null
     }
 
-    private fun initViewPager() {
-        viewPager = binding.viewPager
-        adapter = ImageSliderAdapter(imageResourceIds)
-        viewPager.adapter = adapter
+//    private fun initViewPager() {
+//        viewPager = binding.viewPager
+//        adapter = ImageSliderAdapter(imageResourceIds)
+//        viewPager.adapter = adapter
+//    }
+
+    private fun setupImageSlider(){
+        val imageSlider = binding.imageSlider
+        val imageList = ArrayList<SlideModel>()
+
+        imageList.add(SlideModel(R.drawable.pic_one))
+        imageList.add(SlideModel(R.drawable.pic_two))
+        imageList.add(SlideModel(R.drawable.pic_three))
+
+        imageSlider.setImageList(imageList, ScaleTypes.CENTER_CROP)
     }
 
     private fun setupRecyclerView() {

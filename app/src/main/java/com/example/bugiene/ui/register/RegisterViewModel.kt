@@ -15,7 +15,7 @@ import retrofit2.Response
  */
 class RegisterViewModel : ViewModel() {
 
-    val registrationResult = MutableLiveData<RegisterResponse>()
+    val registrationResult = MutableLiveData<RegisterResponse?>()
 
     fun RegisterUser(username : String, email : String, password : String) {
         registrationResult.value = null
