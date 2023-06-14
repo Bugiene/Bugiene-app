@@ -42,7 +42,6 @@ class ProfileFragment : Fragment() {
             showLogoutDialog()
         }
         binding.customToolbar.teks.text = "Profile"
-        binding.batas.visibility = View.GONE
 //        setUpProfile()
         saveData()
         setUpHistory()
@@ -68,11 +67,9 @@ class ProfileFragment : Fragment() {
                 historyAdapter.notifyDataSetChanged()
                 binding.ivEmptyState.visibility = View.GONE
                 binding.tvMessage.visibility = View.GONE
-                binding.batas.visibility  = View.GONE
             } else {
                 binding.ivEmptyState.visibility = View.VISIBLE
                 binding.tvMessage.visibility = View.VISIBLE
-                binding.batas.visibility  = View.GONE
             }
         }
     }
