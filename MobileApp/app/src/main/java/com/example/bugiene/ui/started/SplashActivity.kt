@@ -17,8 +17,6 @@ class SplashActivity : AppCompatActivity() {
     private val SPLASH_TIME_OUT = 3000L
     private lateinit var sharedPreferences: SharedPreferences
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
