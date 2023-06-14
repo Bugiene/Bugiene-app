@@ -30,17 +30,28 @@ class ResultActivity : AppCompatActivity() {
 
         var hasilFresh = freshnessOutput(freshness)
         var hasilPercentage = convertDouble(accuracy)
-        Log.d("resut", "fresh : $hasilFresh dan persen : $hasilPercentage")
-        if (uri != null) {
-            binding.imageResult.setImageURI(uri.toUri())
+
+        if (accuracy < 1){
+            if (uri != null) {
+                binding.imageResult.setImageURI(uri.toUri())
+            }
+            binding.tvResult.text = "Rotten"
+            binding.tvAkurasi.text = hasilPercentage
+        }
+        else{
+            if (uri != null) {
+                binding.imageResult.setImageURI(uri.toUri())
+            }
+            binding.tvResult.text = hasilFresh
+            binding.tvAkurasi.text = hasilPercentage
         }
 
-        binding.tvResult.text = hasilFresh
-        binding.tvAkurasi.text = hasilPercentage
+        Log.d("resut", "fresh : $hasilFresh dan persen : $hasilPercentage")
+
     }
 
     private fun freshnessOutput(hasil: Boolean): String {
-        if (hasil == true) {
+        if (hasil) {
             return "Fresh"
         } else {
             return "Rotten"

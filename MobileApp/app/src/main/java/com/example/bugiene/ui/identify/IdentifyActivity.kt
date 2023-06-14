@@ -154,27 +154,5 @@ class IdentifyActivity : AppCompatActivity() {
             Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.WRITE_EXTERNAL_STORAGE
         )
-        private const val REQUEST_CODE_PERMISSIONS = 10
     }
 }
-
-//private fun allPermissionsGranted() = IdentifyActivity.REQUIRED_PERMISSIONS.filterNot { permission ->
-//    permission == Manifest.permission.WRITE_EXTERNAL_STORAGE && Build.VERSION.SDK_INT <= 33
-//}.all {
-//    ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
-//}
-//override fun onRequestPermissionsResult(
-//    requestCode: Int,
-//    permissions: Array<String>,
-//    grantResults: IntArray
-//) {
-//    super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-//    if (requestCode == IdentifyActivity.REQUEST_CODE_PERMISSIONS && Build.VERSION.SDK_INT <= 33) {
-//        if (allPermissionsGranted()) {
-//            // Permissions are granted, proceed with setup
-//            setupActivity()
-//        } else {
-//            Toast.makeText(this, "Permissions not granted", Toast.LENGTH_SHORT).show()
-//            finish()            }
-//    }
-//}

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,203 +8,219 @@
     android:padding="16dp"
     tools:context=".ui.register.RegisterActivity">
 
-    <TextView
-        android:id="@+id/teks_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/dmsans_bold"
-        android:gravity="center"
-        android:text="@string/register"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/iv_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:contentDescription="@string/logoRegis"
-        android:src="@drawable/logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/teks_register" />
-
-    <TextView
-        android:id="@+id/teks_username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/dmsans_bold"
-        android:labelFor="@id/ed_regis_username"
-        android:paddingBottom="5dp"
-        android:text="@string/username"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_register" />
-
-    <EditText
-        android:id="@+id/ed_regis_username"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@drawable/custom_et"
-        android:paddingStart="16dp"
-        android:paddingEnd="4dp"
-        android:singleLine="true"
-        android:textCursorDrawable="@drawable/cursor_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/teks_username" />
-
-    <TextView
-        android:id="@+id/teks_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/dmsans_bold"
-        android:labelFor="@id/ed_regis_email"
-        android:paddingBottom="5dp"
-        android:text="@string/email"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ed_regis_username" />
-
-    <EditText
-        android:id="@+id/ed_regis_email"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@drawable/custom_et"
-        android:inputType="textEmailAddress"
-        android:paddingStart="16dp"
-        android:paddingEnd="4dp"
-        android:singleLine="true"
-        android:textCursorDrawable="@drawable/cursor_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/teks_email" />
-
-    <TextView
-        android:id="@+id/teks_pass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/dmsans_bold"
-        android:labelFor="@id/ed_regis_pass"
-        android:paddingBottom="5dp"
-        android:text="@string/password"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ed_regis_email" />
-
-    <EditText
-        android:id="@+id/ed_regis_pass"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@drawable/custom_et"
-        android:inputType="textPassword"
-        android:paddingStart="16dp"
-        android:paddingEnd="4dp"
-        android:singleLine="true"
-        android:textCursorDrawable="@drawable/cursor_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/teks_pass" />
-
-    <TextView
-        android:id="@+id/teks_confirm_pass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/dmsans_bold"
-        android:labelFor="@id/ed_regis_confpass"
-        android:paddingBottom="5dp"
-        android:text="@string/confirm_password"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ed_regis_pass" />
-
-    <EditText
-        android:id="@+id/ed_regis_confpass"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@drawable/custom_et"
-        android:inputType="textPassword"
-        android:paddingStart="16dp"
-        android:paddingEnd="4dp"
-        android:singleLine="true"
-        android:textCursorDrawable="@drawable/cursor_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/teks_confirm_pass" />
-
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_regis"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/custom_bt"
-        android:fontFamily="@font/dmsans_bold"
-        android:text="@string/submit"
-        android:textSize="18sp"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ed_regis_confpass" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bt_regis">
+        <ImageView
+            android:id="@+id/iv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/logoRegis"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <TextView
-            android:id="@+id/text1"
-            android:layout_width="wrap_content"
+            android:id="@+id/teks_register"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="5dp"
-            android:fontFamily="@font/dmsans_regular"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/dmsans_bold"
             android:gravity="center"
-            android:text="@string/already_an_account"
+            android:text="@string/register"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_register"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/teks_register"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <TextView
-            android:id="@+id/tv_to_login"
-            android:layout_width="wrap_content"
+            android:id="@+id/teks_username"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/dmsans_regular"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/dmsans_bold"
+            android:labelFor="@id/ed_regis_username"
+            android:paddingBottom="5dp"
+            android:text="@string/username"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line1" />
+
+        <EditText
+            android:id="@+id/ed_regis_username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_et"
+            android:paddingStart="16dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/cursor_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teks_username" />
+
+        <TextView
+            android:id="@+id/teks_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/dmsans_bold"
+            android:labelFor="@id/ed_regis_email"
+            android:paddingBottom="5dp"
+            android:text="@string/email"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_regis_username" />
+
+        <EditText
+            android:id="@+id/ed_regis_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_et"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/cursor_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teks_email" />
+
+        <TextView
+            android:id="@+id/teks_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/dmsans_bold"
+            android:labelFor="@id/ed_regis_pass"
+            android:paddingBottom="5dp"
+            android:text="@string/password"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_regis_email" />
+
+        <EditText
+            android:id="@+id/ed_regis_pass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_et"
+            android:inputType="textPassword"
+            android:paddingStart="16dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/cursor_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teks_pass" />
+
+        <TextView
+            android:id="@+id/teks_confirm_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/dmsans_bold"
+            android:labelFor="@id/ed_regis_confpass"
+            android:paddingBottom="5dp"
+            android:text="@string/confirm_password"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_regis_pass" />
+
+        <EditText
+            android:id="@+id/ed_regis_confpass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_et"
+            android:inputType="textPassword"
+            android:paddingStart="16dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/cursor_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teks_confirm_pass" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_regis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_bt"
+            android:fontFamily="@font/dmsans_bold"
+            android:text="@string/submit"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_regis_confpass" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="@string/loginTv"
-            android:textColor="@color/PrimeGreen"
-            android:textSize="12sp"/>
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bt_regis">
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:gravity="center"
+                android:text="@string/already_an_account"
+                android:textColor="@color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_to_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dmsans_regular"
+                android:gravity="center"
+                android:text="@string/loginTv"
+                android:textColor="@color/PrimeGreen"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
 
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:indeterminateTint="@color/PrimeOrange"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/PrimeOrange"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

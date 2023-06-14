@@ -60,7 +60,8 @@ class ProfileFragment : Fragment() {
         historyViewModel.history.observe(viewLifecycleOwner) { historyResponse ->
             Log.d("msg", "hasil {$historyResponse}")
             if (historyResponse != null) {
-                historyResponse.listHistory?.let {
+                val reversedHistoryList = historyResponse.listHistory?.reversed()
+                reversedHistoryList?.let {
                     historyAdapter = HistoryAdapter(it)
                     binding.rvHistory.adapter = historyAdapter
                 }
