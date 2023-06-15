@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Bugiene</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="data_tittle">
+        <item>Exploring the Sweet Spot: How to Identify Ripe and Fresh Fruits with the Fruit Freshness Detector App</item>
+        <item>Optimizing Fruit Freshness: Expert Tips on Proper Fruit Care and Handling</item>
+        <item>Fruit Care for Optimal Health: Unlocking the Secrets to Preserving Nutritional Value and Freshness</item>
+        <item>The Fruit Whisperer Guide: Expert Advice on Caring for and Selecting the Freshest Fruits</item>
+        <item>The Remarkable Benefits of Fresh Fruits: Nourishing Your Health for a Vibrant Life</item>
+    </string-array>
+
+    <string-array name="data_field">
+        <item>@string/article_one</item>
+        <item>@string/article_two</item>
+        <item>@string/article_three</item>
+        <item>@string/article_four</item>
+        <item>@string/article_five</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/article_one</item>
+        <item>@drawable/article_two</item>
+        <item>@drawable/article_three</item>
+        <item>@drawable/article_four</item>
+        <item>@drawable/article_five</item>
+    </integer-array>
+
+    <string name="tittle_contoh">Exploring the Sweet Spot: How to Identify Ripe and Fresh Fruits with the Fruit Freshness Detector App</string>
+    <string name="title_activity_detail_article">DetailArticleActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="article_one">In the quest for the perfect fruit, freshness and ripeness are key factors that determine the ultimate eating experience. We all want to sink our teeth into a juicy, flavorful fruit at the peak of its ripeness. Thankfully, modern technology has come to the rescue with the Fruit Freshness Detector App, a revolutionary tool that helps us identify ripe and fresh fruits with ease. \n\n
+        Gone are the days of guessing or relying solely on visual cues to determine a fruit readiness. The Fruit Freshness Detector App takes advantage of advanced algorithms and sensors to analyze various factors that indicate the freshness and ripeness of a fruit. By simply scanning the fruit using the app, users can obtain valuable information that assists them in selecting the perfect fruit. \n\n
+        One of the primary indicators of fruit ripeness is its color. The app utilizes its built-in color recognition system to assess the hue and intensity of the fruit\'s skin. It compares these characteristics with a database of known color profiles for each fruit variety, allowing it to determine whether the fruit is ripe or still in the early stages of ripening. This feature is particularly useful for fruits like bananas, where the transition from green to yellow is a clear indication of ripeness.\n\n
+        Texture is another crucial aspect of fruit ripeness, and the Fruit Freshness Detector App excels in this area as well. By analyzing the fruits surface using its touch-sensitive technology, the app can detect changes in texture that occur as a fruit ripens. For example, a perfectly ripe peach will have a slightly soft and velvety texture, indicating that it is ready to be enjoyed. With the apps guidance, users can avoid the disappointment of biting into an unripe or overripe fruit.\n\n
+        In addition to color and texture, the app also considers the aroma emitted by the fruit. It leverages its scent recognition capabilities to analyze the volatile compounds released by the fruit, which are indicative of its ripeness. A ripe mango, for instance, will emit a sweet and fragrant aroma, while an unripe one may lack the distinct smell. By incorporating scent analysis, the Fruit Freshness Detector App provides users with a comprehensive assessment of a fruit\'s freshness.\n\n
+        The Fruit Freshness Detector App is not only a valuable tool for individual consumers but also for farmers, grocery stores, and fruit vendors. It enables them to accurately assess the ripeness of fruits before selling or distributing them, reducing waste and ensuring customer satisfaction. Additionally, the app can educate consumers about the ideal ripeness stages for different fruits, empowering them to make informed choices and fully enjoy their fruit-buying experience.\n\n
+        In conclusion, the Fruit Freshness Detector App is a game-changer in the world of fruit selection. By harnessing the power of advanced technology, this innovative app enables users to identify ripe and fresh fruits with ease. With its ability to analyze color, texture, and aroma, the app provides a comprehensive assessment that ensures you find the perfect fruit every time. So, embark on a journey to the sweet spot of fruit ripeness with the Fruit Freshness Detector App and savor the delight of biting into nature\'s finest offerings.\n\n
+    </string>
+
+    <string name="article_two">To ensure the highest level of freshness and flavor in your fruits, it\'s essential to follow expert tips on proper fruit care and handling. These tips will help you optimize the quality and longevity of your favorite fruits, allowing you to enjoy them at their best. From selecting the ripest fruits to storing them correctly, here are some valuable guidelines to consider\n\n
+        Choose Ripe Fruits: When purchasing fruits, select ones that are ripe and ready to eat. Look for fruits that are firm but yield slightly to gentle pressure. Avoid fruits that are overly soft or have blemishes, as they may be overripe or nearing spoilage. The aroma of the fruit can also provide a clue to its ripeness. Trust your senses and choose fruits with a pleasant and characteristic fragrance.\n\n
+        Handle with Care: Fruits are delicate and can easily bruise or become damaged when mishandled. Avoid dropping or roughly handling them, as this can lead to bruising and accelerated decay. When carrying fruits, hold them gently, especially those with softer skins like berries or peaches. It\'s important to treat fruits with the utmost care to preserve their freshness and texture.\n\n
+        Wash Before Consumption: Before consuming or using fruits in recipes, it is crucial to wash them thoroughly. Rinse them under cool, running water to remove any dirt, pesticides, or residue that may be present on the skin. Even if you plan to peel the fruit, washing it beforehand prevents any contaminants from transferring to the flesh when cutting into it.\n\n
+        Proper Storage: Correct storage is vital for maintaining fruit freshness. Some fruits, such as apples and citrus fruits, can be stored at room temperature in a cool, dry place away from direct sunlight. However, many fruits benefit from refrigeration to prolong their shelf life. Berries, grapes, and other delicate fruits should be refrigerated to maintain their freshness. For fruits that emit ethylene gas, such as apples and bananas, store them separately from ethylene-sensitive fruits to avoid premature ripening.\n\n
+        Use Breathable Containers: Storing fruits in breathable containers can help regulate moisture and prevent moisture buildup that may lead to mold or spoilage. Opt for perforated bags or containers that allow for proper air circulation while retaining the fruit\'s natural moisture. Avoid sealing fruits tightly in plastic bags, as this can accelerate decay.\n\n
+        Check and Remove Spoiled Fruits: Regularly inspect your fruit stash for any signs of spoilage or decay. One spoiled fruit can quickly affect the others, so it\'s crucial to remove any affected ones promptly. Moldy or mushy fruits should be discarded to prevent the spread of spoilage and to maintain the freshness of the remaining fruits.\n\n
+        By following these expert tips on proper fruit care and handling, you can optimize the freshness, flavor, and longevity of your fruits. Whether you enjoy them as a refreshing snack, incorporate them into meals, or use them for baking, these guidelines will ensure that you savor the natural goodness of your fruits at their peak.\n\n
+    </string>
+
+    <string name="article_three">Maintaining optimal health is a top priority for many individuals, and one of the key components of a healthy diet is consuming fresh and nutritious fruits. However, it is essential to understand that the nutritional value and freshness of fruits can diminish over time. That\'s why unlocking the secrets to preserving these qualities becomes crucial in our quest for a healthier lifestyle.\n\n
+        Preserving the nutritional value of fruits begins with proper handling and storage. The moment fruits are harvested, their nutrient content starts to decline. Exposure to light, air, and heat accelerates this process. To mitigate nutrient loss, it is advisable to consume fruits as soon as possible after purchasing or harvesting them. Additionally, storing fruits in cool, dark, and well-ventilated areas can help slow down the degradation of their nutrients.\n\n
+        Another vital aspect of fruit care is handling them with care to minimize bruising and damage. Fruits that are bruised or injured are more prone to spoilage and can lose nutrients at a faster rate. When selecting fruits, choose those that are free of blemishes, bruises, or soft spots. Properly handling and transporting fruits can go a long way in preserving their nutritional integrity.\n\n
+        Understanding the ripening process is also essential for maintaining fruit freshness. Different fruits have distinct ripening patterns. Some fruits, like bananas and avocados, continue to ripen after they are picked, while others, such as berries and citrus fruits, do not ripen significantly once harvested. By familiarizing ourselves with these ripening characteristics, we can time our fruit consumption accordingly and ensure the freshest experience.\n\n
+        The use of appropriate storage techniques can further extend the freshness of fruits. Refrigeration is often the ideal method for preserving fruits that are prone to spoilage, such as berries, cherries, and grapes. However, certain fruits, like apples and pears, can be stored at room temperature for a longer duration. It is crucial to store fruits separately from vegetables since some fruits release ethylene gas, which can cause premature ripening and spoilage in nearby produce.\n\n
+        In addition to proper storage, various preservation methods can help retain the nutritional value of fruits for an extended period. Freezing fruits at their peak ripeness is a popular technique that preserves their vitamins, minerals, and antioxidants. Additionally, fruits can be dehydrated or turned into jams and preserves to enjoy their goodness throughout the year. These methods not only maintain nutritional value but also allow us to savor the flavors of our favorite fruits regardless of the season.\n\n
+        In conclusion, fruit care for optimal health involves unlocking the secrets to preserving nutritional value and freshness. By handling fruits with care, understanding their ripening patterns, utilizing appropriate storage techniques, and exploring preservation methods, we can ensure that the fruits we consume are packed with essential nutrients and bursting with freshness. So, let us embrace these secrets and savor the vibrant, nutritious world of fruits to support our journey toward optimal health.\n\n
+    </string>
+
+    <string name="article_four"> In today\'s fast-paced world, it\'s easy to overlook the importance of fresh, flavorful fruits in our diets. However, for those seeking a healthier lifestyle and a burst of natural sweetness, understanding how to care for and select the freshest fruits is crucial. That\'s where the Fruit Whisperer comes in – an expert with an uncanny ability to guide you through the world of fruits, offering invaluable advice and insights.\n\n
+        When it comes to caring for fruits, the Fruit Whisperer emphasizes the significance of proper storage. Fruits have different requirements, and knowing how to store them correctly can significantly extend their freshness. For example, delicate berries should be refrigerated, preferably unwashed and placed in a breathable container to prevent moisture buildup. On the other hand, certain fruits like apples and bananas emit ethylene gas, which can speed up the ripening process of nearby fruits. Separating these ethylene-producing fruits from others can help maintain their freshness for longer.\n\n
+        Selecting the freshest fruits is an art that the Fruit Whisperer has mastered. The key lies in using multiple senses to assess the quality of a fruit. When examining an apple, for instance, the Whisperer advises checking for firmness and a vibrant color. A fresh apple should feel solid to the touch and have a bright, unblemished skin. Similarly, when selecting oranges or other citrus fruits, a slight heaviness and a fragrant aroma are indicators of juiciness and ripeness.\n\n
+        Understanding the seasons is also vital for choosing the freshest fruits. The Fruit Whisperer recommends embracing the natural ebb and flow of fruit availability throughout the year. By opting for fruits in their peak season, you are more likely to find exceptional flavor and quality. Furthermore, buying locally sourced fruits from farmers\' markets or joining community-supported agriculture (CSA) programs can ensure the freshest produce, as these fruits often come straight from the fields.\n\n
+        The Fruit Whisperer\'s expertise goes beyond selection and care; they also offer guidance on incorporating fruits into daily meals and snacks. From refreshing smoothie recipes to tantalizing fruit salads and innovative fruit-based desserts, the possibilities are endless. Their knowledge extends to pairing fruits with other ingredients to create harmonious flavor combinations that can elevate any dish.\n\n
+        In conclusion, the Fruit Whisperer\'s Guide provides expert advice on caring for and selecting the freshest fruits. By understanding how to properly store fruits, using multiple senses to assess quality, considering seasonal availability, and exploring creative culinary options, you can enhance your fruit experience and reap the numerous health benefits they offer. So, embrace the guidance of the Fruit Whisperer, and let the world of fruits tantalize your taste buds and nourish your body.\n\n
+    </string>
+
+    <string name="article_five">
+        Fresh fruits are not only delicious but also incredibly beneficial for our overall health and well-being. Packed with essential nutrients, vitamins, minerals, and antioxidants, these natural wonders have the power to enhance our vitality and contribute to a healthier lifestyle.\n\n
+        When it comes to maintaining optimal health, incorporating a variety of fresh fruits into our daily diet is essential. Fruits such as apples, berries, and citrus fruits offer an array of health benefits. Apples, known for their high fiber content, promote healthy digestion and contribute to heart health. Meanwhile, the vibrant assortment of berries—strawberries, blueberries, raspberries, and blackberries—offer powerful antioxidants that combat inflammation, boost the immune system, and support cardiovascular health. Citrus fruits, including oranges, lemons, and grapefruits, are excellent sources of vitamin C, providing a tangy boost to our vitality while also promoting skin health and supporting the immune system.\n\n
+        Consuming fresh fruits regularly has been associated with a reduced risk of chronic diseases such as heart disease, diabetes, and certain types of cancer. The fiber in fruits aids in digestion and helps maintain healthy cholesterol levels. Additionally, the abundance of vitamins and antioxidants found in fresh fruits contributes to a strengthened immune system, protecting the body against illnesses and infections.\n\n
+        Furthermore, fresh fruits are a natural source of hydration due to their high water content. Staying hydrated is crucial for overall health and supports various bodily functions, including proper digestion, circulation, and temperature regulation.\n\n
+        Incorporating a diverse range of fresh fruits into our daily diet is not only a delicious endeavor but also a powerful step towards better health. Whether enjoyed as a refreshing snack, added to smoothies, or incorporated into savory dishes, fresh fruits provide us with a wealth of nutrients, vitality, and a zest for life.\n\n
+        Nature\'s bounty offers us an incredible array of fresh fruits, each brimming with unique health benefits. By including a variety of these nutrient-rich delights in our daily routine, we can nourish our bodies, boost our immunity, and foster a vibrant and healthier life. So, let\'s savor the flavors and embrace the goodness of fresh fruits for a life well-lived.\n\n
+    </string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="submit">Submit</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="tomboladd">tomboladd</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="result">Result :</string>
+    <string name="accuracy">Accuracy :</string>
+    <string name="judul_tutor">How do I use the \'Bugiene\' app to scan and determine the freshness of fruits?</string>
+    <string name="langkah_satu">1.\tWhen you first log in, you will see the dashboard at the bottom. In the dashboard, there is a camera button. Click the camera button, and a new screen will appear.</string>
+    <string name="langkah_dua">2.\tYou can choose the source of the fruit picture. There are two options: gallery and camera. If you choose the gallery, you can select a fruit picture from your photo gallery. If you choose the camera, you can take a picture of the fruit using your device\'s camera. Once you are done, click OK, and you will return to the fresh detection screen. Click the Identify button to detect the fruit from your picture. Afterward, a new screen will appear.</string>
+    <string name="langkah_tiga">3.\tThe results screen will display the freshness of your fruit based on the picture you took. It will also show the accuracy of the detection performed by the app, giving you an idea of how accurate the app\'s detection is.</string>
+    <string name="news_today">News Today</string>
+    <string name="confuse_how_to_use_app">Confuse How to Use App?</string>
+    <string name="logout_question">Are you sure you want to logout?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="judul_item_tutor">How do I use the \'Bugiene\' app to scan and determine the freshness of fruits?</string>
+    <string name="highlight_item_tutor">1.\tWhen you first log in, you will see the dashboard at the bottom. In the dashboard, there is a camera button. Click the camera button, and a new screen will appear.</string>
+    <string name="profile">Profile</string>
+    <string name="detech_message">Tips: Make sure the subject is centered and the background is uncluttered for better results.</string>
+    <string name="gambar">gambar</string>
+    <string name="gambardisplay">gambardisplay</string>
+    <string name="login">Login</string>
+    <string name="logo">logo</string>
+    <string name="emailLogin">Email</string>
+    <string name="passwordLogin">Password</string>
+    <string name="submitLogin">Submit</string>
+    <string name="easy_to_determined">Easy to Determined</string>
+    <string name="message">Bugiene will help you determine the freshness of your fruit and not only that, we will provide you with its history so you can learn from the past. Additionally, our app features a News section where you can read relevant articles on the dashboard.</string>
+    <string name="get_started">Get Started</string>
+    <string name="loginOnBoarding">Login</string>
+    <string name="logoRegis">logo</string>
+    <string name="already_an_account">Already an account?</string>
+    <string name="loginTv">Login</string>
+    <string name="resultpic">resultPic</string>
+    <string name="pic1">pic1</string>
+    <string name="pic2">pic2</string>
+    <string name="pic3">pic3</string>
+    <string name="avapic">avaPic</string>
+    <string name="history">History</string>
+    <string name="ops_no_history">Ops, No History</string>
+    <string name="emptystate">emptyState</string>
+    <string name="identify">Identify</string>
+</resources>
