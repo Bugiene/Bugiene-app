@@ -1,0 +1,12 @@
+runtime: nodejs18
+service: backend-v3
+env: standard
+
+runtime_config:
+  tensorflow_version: 2
+
+env_variables:
+  DB_HOST: 34.128.65.212
+  DB_USER: root
+  DB_NAME: Bugiene
+  DB_PASSWORD: 1234567890
