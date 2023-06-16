@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">BUGIENE: An Android-Based Mobile Application for Fruit Freshness Classifier Through Fruit Images Classification</h1>
 
-**[Demo App](https://drive.google.com/file/d/11cGNiyM7-L1fp5DLZrRyULXxIPt3Rh4G/view?usp=sharing) - [Download App](https://drive.google.com/file/d/1Y4d-aQ7V_emExz7EuUUEmMpTsPSCLb2P/view?usp=sharing) - [Product Orientation](https://docs.google.com/presentation/d/1yAfovJBNfScIK0mmg1fSs6Z8q53hoMbsWlkZNrVa63Y/edit?usp=sharing)**
+**[Demo App](https://drive.google.com/file/d/1P_mv8vSAr0Hl-MKJqUP82yl7K4E3a3hn/view?usp=sharing) - [Download App](https://drive.google.com/file/d/1Y4d-aQ7V_emExz7EuUUEmMpTsPSCLb2P/view?usp=sharing) - [Product Orientation](https://docs.google.com/presentation/d/1yAfovJBNfScIK0mmg1fSs6Z8q53hoMbsWlkZNrVa63Y/edit?usp=sharing)**
   
 This app is a part of Bangkit 2022 Capstone Project from team C23-PC669 (Bugiene):
 
