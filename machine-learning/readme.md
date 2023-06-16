@@ -14,7 +14,7 @@ This repository contains the code for a machine learning model that performs imp
 
 ## Dataset
 
-The model is trained on a custom dataset consisting of labeled images. The dataset can be obtained from https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification and https://www.kaggle.com/datasets/moltean/fruits.
+The model is trained on a custom dataset consisting of labeled images. The dataset can be obtained from https://drive.google.com/file/d/1TIVGExDfYsShoewKA-32SJ7w-vtqdspe/view?usp=drive_link
  
 
 ## Model Architecture
