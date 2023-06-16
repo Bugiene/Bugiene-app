@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">BUGIENE: An Android-Based Mobile Application for Fruit Freshness Classifier Through Fruit Images Classification</h1>
 
-**[Demo App](https://drive.google.com/file/d/1P_mv8vSAr0Hl-MKJqUP82yl7K4E3a3hn/view?usp=sharing) - [Download App]([https://drive.google.com/file/d/1Y4d-aQ7V_emExz7EuUUEmMpTsPSCLb2P/view?usp=sharing](https://github.com/Bugiene/Bugiene-app/releases/tag/v0.0.1)) - [Product Orientation](https://docs.google.com/presentation/d/1yAfovJBNfScIK0mmg1fSs6Z8q53hoMbsWlkZNrVa63Y/edit?usp=sharing)**
+**[Demo App](https://drive.google.com/file/d/1P_mv8vSAr0Hl-MKJqUP82yl7K4E3a3hn/view?usp=sharing) - [Download App](https://github.com/Bugiene/Bugiene-app/releases/tag/v0.0.1) - [Product Orientation](https://docs.google.com/presentation/d/1yAfovJBNfScIK0mmg1fSs6Z8q53hoMbsWlkZNrVa63Y/edit?usp=sharing)**
   
 This app is a part of Bangkit 2023 Capstone Project from team C23-PC669 (Bugiene):
 
@@ -47,7 +47,7 @@ API Endpoint was developed for allows users to register, log in, perform fruit f
  <img src="https://github.com/Bugiene/Bugiene-app/raw/master/assets/Log%20Out%20Validation%20Page.png" width="200" height="400"> 
 
 ## Download Tutorial
-1.  Download the latest APK file from the [Releases]([https://github.com/organization/repo/releases](https://github.com/Bugiene/Bugiene-app/releases/tag/v0.0.1)) section of this GitHub repository.
+1.  Download the latest APK file from the [Releases](https://github.com/Bugiene/Bugiene-app/releases/tag/v0.0.1) section of this GitHub repository.
 2.  Transfer the APK file to your Android device using a USB cable or any preferred method.
 3.  On your Android device, go to **Settings** and enable **Unknown sources** or **Install unknown apps** (the exact wording may vary depending on your Android version).
 4.  Use a file manager app to navigate to the location where you transferred the APK file.
