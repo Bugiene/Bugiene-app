@@ -5,7 +5,7 @@
 
 **[Demo App](https://drive.google.com/file/d/1P_mv8vSAr0Hl-MKJqUP82yl7K4E3a3hn/view?usp=sharing) - [Download App](https://drive.google.com/file/d/1Y4d-aQ7V_emExz7EuUUEmMpTsPSCLb2P/view?usp=sharing) - [Product Orientation](https://docs.google.com/presentation/d/1yAfovJBNfScIK0mmg1fSs6Z8q53hoMbsWlkZNrVa63Y/edit?usp=sharing)**
   
-This app is a part of Bangkit 2022 Capstone Project from team C23-PC669 (Bugiene):
+This app is a part of Bangkit 2023 Capstone Project from team C23-PC669 (Bugiene):
 
 - (ML) M163DKY4124 - Laila Nur Anggamurti - Dian Nuswantoro University
 - (ML) M030DSX2503 - Sandro Sinaga - Del Institute of Technology 
