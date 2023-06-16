@@ -5,7 +5,7 @@
 
 **[Demo App](https://drive.google.com/file/d/11cGNiyM7-L1fp5DLZrRyULXxIPt3Rh4G/view?usp=sharing) - [Download App](https://drive.google.com/file/d/1Y4d-aQ7V_emExz7EuUUEmMpTsPSCLb2P/view?usp=sharing) - [Product Orientation](https://docs.google.com/presentation/d/1yAfovJBNfScIK0mmg1fSs6Z8q53hoMbsWlkZNrVa63Y/edit?usp=sharing)**
   
-This app is a part of Bangkit 2022 Capstone Project from team C22-PS272 (Bugiene):
+This app is a part of Bangkit 2022 Capstone Project from team C23-PC669 (Bugiene):
 
 - (ML) M163DKY4124 - Laila Nur Anggamurti - Dian Nuswantoro University
 - (ML) M030DSX2503 - Sandro Sinaga - Del Institute of Technology 
@@ -22,7 +22,7 @@ Our team noticed that consumers often struggle to determine the freshness of fru
 The application will have an easy-to-use interface that provides consumers with real-time information on the quality of the fruits they are considering purchasing. By doing so, we hope to empower consumers to make more informed purchasing decisions and reduce food waste.
 
 ## User Interface and User Experience Application
-This is User Interview of Bugiene app. This design is adapted to the results of UX research. The UI/UX design is done using the design thinking method in the figma application. The following is the overall result of a series of design thinking methods [UI/UX Design](https://tinyurl.com/PlanAPKinFigma). 
+This is User Interview of Bugiene app. This design is adapted to the results of UX research. The UI/UX design is done using the design thinking method in the figma application. The following is the overall result of a series of design thinking methods [UI/UX Design](https://www.figma.com/file/WdskoPJdzXUjC1npEYWwYr/Capstone?type=design&node-id=0%3A1&t=RW8zO8jGKZFqUnAI-1). 
 
 ## Machine Learning Model
 A machine learning model was developed to classify fruits into rotten or fresh categories using computer vision and a convolutional neural network (CNN). The model was built using the TensorFlow Keras library. In this case, the CNN model was trained on a dataset of images of fruits, such as: apples, avocados, bananas, grapes, guavas, oranges. The dataset included images of both rotten and fresh fruits. The CNN was able to learn to distinguish between the two types of fruit based on the features it extracted from the images.The output from our model is prediction result "Fresh" or "Rotten" and the accuracy.
